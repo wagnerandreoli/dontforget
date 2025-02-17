@@ -62,7 +62,7 @@ repos:
       - id: python-no-log-warn
       - id: rst-backticks
   - repo: https://github.com/PyCQA/flake8
-    rev: 7.1.1
+    rev: 7.1.2
     hooks:
       - id: flake8
         additional_dependencies:
@@ -92,7 +92,7 @@ repos:
         # https://docs.openstack.org/bashate/latest/man/bashate.html#options
         args: [-i, E006]
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.2.0
+    rev: v4.2.1
     hooks:
       - id: commitizen
         stages:
